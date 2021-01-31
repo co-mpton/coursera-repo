@@ -1,6 +1,7 @@
 /*****set box All browsers support this*****/
 * {
     box-sizing: border-box;
+    
   } 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,20 +9,48 @@ h1 {
     margin-bottom: 30px;
     }
 section {
-    width: 400px;
-    border: 3px solid rgb(5, 5, 5);
-    padding: 10px;
-    margin: 10px;
+    width: 100px;
+    height: 25px;
+    border: 2px solid rgb(5, 5, 5);
+    padding: 2px;
     background-color: rgb(161, 148, 148);
-    float: left;
+    float: right;
+    text-align: center;
     
     }
-
+div {
+    width:600px;
+    border: 2px solid black;
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    background-color: grey;
+}
+div.p {
+  color: red;
+  
+}
+div#container {
+  background-color: grey;
+  position:relative
+}
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
   }
   
+#pink {
+  background-color: pink;
+} 
+#red {
+  background-color: rgb(168, 42, 63);
+  text-overflow: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+} 
+#yellowish {
+  background-color: #D2B48C;
+}  
   @media only screen and (max-width: 991px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -38,7 +67,7 @@ section {
     .col-s-12 {width: 100%;}
   }
   
-  @media (min-width:992) and (max-width:  1200px) {
+  @media only screen and (min-width:992) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
