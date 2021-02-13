@@ -1,22 +1,41 @@
-
-
-.navbar { 
-    background-color: #c3cad1;
-    height: 60px;
-    
-
-} 
-.navbar a {
-    font-size: 25px;
-    font-weight: 900;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-size: 1.5rem;
+    margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+    
+}
+
+p.thick {
+    font-weight:bold;
+}
+
+.navbar { 
+    background-color: rgb(173, 168, 163);
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 0%;
+   
+} 
+.navbar a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div > a {
+    color:black
+}
 #chicken {
     
     margin: 10px;
     background-color: rgb(173, 168, 163);
-    border: 2px solid rgb(151, 183, 185);
-    float: right;
+    float: left;
+    height: 1000px;
     
     
     
@@ -26,7 +45,7 @@
     
     margin: 10px;
     background-color: rgb(173, 168, 163);
-    border: 2px solid rgb(151, 183, 185);
+    float:left;
     
     
 }
@@ -35,11 +54,32 @@
     
     margin: 10px;
     background-color: rgb(173, 168, 163);
-    border: 2px solid rgb(151, 183, 185);
+    
+    
     
     
 }
-section > p {
-    margin-bottom: 100px;
+
+.myspan {
+    font-size: large;
+    text-align: center;
+    color:rgb(4, 0, 7);
+    padding-bottom: 62px;
     
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 20px;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  h1 {
+      font-weight: bolder;
+      font-size: 25px;
+  }
+  h4 {
+      font-weight: 900;
+  }
