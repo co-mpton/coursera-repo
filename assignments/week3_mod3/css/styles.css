@@ -20,25 +20,24 @@ p.thick {
     height: 55px;
     border: 2px solid black;
     border-radius: 0%;
-   
 } 
+#wow {
+    color:rgb(7, 7, 7);
+    margin-left: 0px;
+}
 .navbar a {
     font-size: 30px;
     font-weight: bold;
 }
 
-div > a {
-    color:black
-}
+
 #chicken {
     
     margin: 10px;
     background-color: rgb(173, 168, 163);
     float: left;
     height: 1000px;
-    
-    
-    
+   
 }
 
 #beef {
