@@ -1,0 +1,43 @@
+.navbar { 
+    background-color: #c3cad1;
+    height: 60px;
+    
+
+} 
+.navbar a {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#chicken {
+    
+    margin: 10px;
+    background-color: rgb(173, 168, 163);
+    border: 2px solid rgb(151, 183, 185);
+    float: right;
+    
+    
+    
+}
+
+#beef {
+    
+    margin: 10px;
+    background-color: rgb(173, 168, 163);
+    border: 2px solid rgb(151, 183, 185);
+    float: left;
+    
+}
+
+#sushi {
+    
+    margin: 10px;
+    background-color: rgb(173, 168, 163);
+    border: 2px solid rgb(151, 183, 185);
+    
+    
+}
+section > p {
+    margin-bottom: 100px;
+    
+}
