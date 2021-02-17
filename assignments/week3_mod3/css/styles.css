@@ -139,3 +139,12 @@ p.thick {
         
     }
 }
+
+@media (max-width:768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 7px;
+        background-color: #fff;
+        padding: 40px;
+}
