@@ -132,10 +132,3 @@ p.thick {
     section > span > h1 {
         padding-top: 23%;
 }
-}
-@media (min-width:768px) and (max-width: 980px) {
-    .nav-list-980 a {
-        display: none !important;
-        
-    }
-}
