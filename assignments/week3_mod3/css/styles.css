@@ -53,10 +53,6 @@ p.thick {
     
     margin: 10px;
     background-color: rgb(173, 168, 163);
-    
-    
-    
-    
 }
 
 .myspan {
@@ -69,7 +65,7 @@ p.thick {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto ;
+    grid-template-columns: 100%;
     grid-gap: 20px;
     background-color: #fff;
     padding: 10px;
@@ -82,3 +78,37 @@ p.thick {
   h4 {
       font-weight: 900;
   }
+  #nav-list {
+    margin-top: 10px;
+    float:right;
+  }
+  #nav-list a {
+    color: #3a3637;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+    
+  }
+  #nav-list a span {
+    font-size: 0.8em;
+     
+  }
+  #fontish {
+      font-size: .08rem;
+  }
+  
+  /* Hide element on Desktop */
+@media only screen and (min-width: 981px) {
+    .hide-on-desktop {
+        display: none !important;
+    }
+}
+
+/* Hide element on Tablet/Phone */
+@media only screen and (max-width: 980px) {
+    .hide-on-mobile-tablet {
+        display: none !important;
+    }
+}
+ 
